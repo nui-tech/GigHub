@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 90px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 
@@ -29,6 +29,21 @@ textarea {
     font-size: 14px;
 }
 
+.voffset{
+    margin-top: 2px;
+}
+.voffset5 {
+    margin-top: 5px;
+}
+.voffset10 {
+    margin-top: 10px;
+}
+.voffset20 {
+    margin-top: 20px;
+}
+.voffset30 {
+    margin-top: 30px;
+}
 /* Bootstrap Overrides */
 
 .navbar-inverse {
@@ -95,8 +110,8 @@ h6,
     }
 
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     border-radius: 10px;
 }
 
@@ -121,14 +136,21 @@ h6,
     margin-bottom: 30px;
 }
 
-
-    .date{
-        background: tomato;
-        color:white;
-        text-align:center;
-        width:60px;
-        border-radius: 8px ;
+    .gigs > li .details {
+        position: absolute;
+        top: 0;
+        left: 70px;
+        width: 160px;
     }
+
+
+.date {
+    background: tomato;
+    color: white;
+    text-align: center;
+    width: 60px;
+    border-radius: 8px;
+}
 
     .month{
         text-transform: uppercase;
@@ -143,17 +165,21 @@ h6,
         padding: 6px 12px;
     }
 
-.gigs > li .details {
-    position: absolute;
-    top: 0;
-    left: 70px;
-}
 
-.artist{
+
+.artist {
     font-weight: bold;
     display: block;
 }
 
 .genre {
     font-size: 14px;
+}
+
+#js-toggle-attendance{
+    margin-top: -18px;
+}
+
+#js-toggle-follow{
+    margin-top: -5px;
 }
