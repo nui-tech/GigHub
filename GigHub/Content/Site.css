@@ -23,6 +23,12 @@ textarea {
     max-width: 280px;
 }
 
+.field-validation-error {
+    color: tomato;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 /* Bootstrap Overrides */
 
 .navbar-inverse {
